@@ -1,0 +1,87 @@
+body{
+    margin: 0% 25%;
+    padding: 0%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+header img{
+    width: 100%;
+}
+.sobreMi{  
+    background: #7299FE;
+    color: white;
+    padding: 2em;
+}
+.sobreMi h2{
+    color: #1D06A7;
+    font-weight: 600;
+    font-size: 34px;
+    text-align: center;
+}
+.sobreMi p{
+    opacity: 0.7;
+}
+.sobreMi button{
+    background: #D16EFF;
+    padding: 1em;
+    border-radius: 14px;    
+}
+.sobreMi a{
+    text-decoration: none;
+    color: white;
+}
+
+.skills{
+    background: #9022FF;
+    padding: 1.5em 0 3.5em 0;
+    margin: 0%;
+}
+.skills h2{
+    text-align: center;
+}
+.skills div{
+    background: #9022FF;
+    width: 100%;
+    text-align: center;
+}
+.skills div:nth-child(1){
+    float: left;
+    width: 50%;
+}
+.skills div:nth-child(2){
+    float: left;
+    width: 50%;
+}
+.portafolio{
+    clear: left;
+    width: 100%;
+    min-width: 100%;
+    background: #FFD233;
+    text-align: center;
+    padding: 1.5em 0;
+    margin: 0%;
+
+}
+.portafolio h2{
+    color: #00AD84;
+}
+.portafolio div img{
+    padding: 1em;
+}
+.contacto{
+    background: #1687A0;
+    padding: 2.5em;
+    text-align: center;
+    margin: 0%;
+}
+.contacto h2{
+    color: #FF1B1B;
+}
+.contacto input{
+    padding: 1.5em;
+}
+.contacto button{
+    background: #233451;
+    padding: 1em;
+    color: white;
+}
